@@ -1,0 +1,149 @@
+:root {
+    --dark-blue-500: #081A44;
+    --dark-blue-900: #02050E;
+    --neutral-100: #F4F4F5;
+    --neutral-200: #E4E4E7;
+    --neutral-50: #FAFAFA;
+    --neutral-500: #71717A;
+    --neutral-900: #18181B;
+    --red: #C5000C;
+    --white: #ffffff;
+}
+
+html,
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: var(--neutral-500);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: 110%;
+}
+
+p {
+    line-height: 140%;
+}
+
+.text-dark-blue {
+    color: var(--dark-blue-500) !important;
+}
+
+.text-dark-blue {
+    color: var(--dark-blue-500) !important;
+}
+
+.text-neutral-100 {
+    color: var(--neutral-100) !important;
+}
+
+.text-neutral-200 {
+    color: var(--neutral-200) !important;
+}
+
+.text-neutral-50 {
+    color: var(--neutral-50) !important;
+}
+
+.text-neutral-500 {
+    color: var(--neutral-500) !important;
+}
+
+.text-neutral-900 {
+    color: var(--neutral-900) !important;
+}
+
+.text-red {
+    color: var(--red) !important;
+}
+
+.bg-neutral-50 {
+    background-color: var(--neutral-50);
+}
+
+.bg-neutral-100 {
+    background-color: var(--neutral-100);
+}
+
+.bg-dark-blue-900 {
+    background-color: var(--dark-blue-900);
+}
+
+.border-dark-blue {
+    border-color: var(--dark-blue-500)!important;
+}
+
+.btn {
+    font-size:0.875rem;
+    font-weight: 600;
+}
+
+.btn-dark-blue {
+    background: var(--dark-blue-500);
+    color:#fff;
+}
+
+.btn-dark-blue:hover {
+    background: var(--dark-blue-900);
+    color:#fff;
+}
+
+.rounded-5 {
+    border-radius:0.5rem!important;
+}
+
+.form-check-input:checked {
+    background-color: var(--dark-blue-500);
+    border-color: var(--dark-blue-500);
+}
+
+.navbar-toggler-custom {
+    width: 100%;
+    position: relative;
+    box-shadow: none !important;
+    font-size: 1rem;
+    padding-right: 30px !important;
+}
+
+
+.navbar-toggler-custom .fa-chevron-down {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.navbar-toggler-custom[aria-expanded="true"] .fa-chevron-down:before {
+    content: "\f077";
+}
+
+.side--nav-list .nav-link {
+    border-radius: 8px;
+    padding: 8px 16px;
+    color: var(--neutral-500);
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.side--nav-list .nav-link .badge {
+    aspect-ratio: 1/1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.side--nav-list .nav-link.active,
+.side--nav-list .nav-link:hover {
+    background: var(--neutral-100);
+    color: var(--neutral-900);
+}
+
+footer p small {
+    font-size: 12px;
+}
